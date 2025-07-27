@@ -1,41 +1,41 @@
-# How to Create Categories in The Bagisto2.2.0
+# Cách Tạo Danh Mục trong Bagisto 2.2.0
 
-The category is a structure of your catalog. By creating a category, customers can easily find the specific product amongst the lot on your e-commerce website. It is used for making the hierarchical arrangement of your website. Here we have listed down steps to create a new category and root category in Bagisto.
+Danh mục là cấu trúc của catalog của bạn. Bằng cách tạo một danh mục, khách hàng có thể dễ dàng tìm thấy sản phẩm cụ thể trong số rất nhiều sản phẩm trên trang web thương mại điện tử của bạn. Nó được sử dụng để tạo ra sự sắp xếp phân cấp cho trang web của bạn. Ở đây chúng tôi đã liệt kê các bước để tạo danh mục mới và danh mục gốc trong Bagisto.
 
-Bagisto comes with a default root category, i.e., Root, but you can also create your root category. The Root Category is not visible on the front end because it acts as a container to contain the categories to be displayed on the website.
+Bagisto đi kèm với danh mục gốc mặc định, tức là Root, nhưng bạn cũng có thể tạo danh mục gốc của riêng mình. Danh Mục Gốc không hiển thị ở giao diện người dùng vì nó hoạt động như một container để chứa các danh mục được hiển thị trên trang web.
 
-### Steps to Create a New Category in Bagisto 2.2.0
+### Các Bước Tạo Danh Mục Mới trong Bagisto 2.2.0
 
-1. Click on **Catalog >> Categories >> Create Category** as shown in the below image.
+1. Nhấp vào **Catalog >> Categories >> Create Category** như hiển thị trong hình dưới đây.
 
    ![Create Category](../../assets/2.2.0/images/category/create.png)
 
-2. Enter the general values like name, position, and description, and add images.
+2. Nhập các giá trị chung như tên, vị trí và mô tả, và thêm hình ảnh.
 
-3. **Display Mode** - Display mode is about which content detail is visible on the category page. There are three options:
+3. **Display Mode** - Chế độ hiển thị là về chi tiết nội dung nào hiển thị trên trang danh mục. Có ba tùy chọn:
    - Product and Description
    - Product
    - Description
 
-   - **Product and Description:** When you set the display mode to "Product and Description," then the product and description about the category both will be visible on the front end as shown below image.
+   - **Product and Description:** Khi bạn đặt chế độ hiển thị thành "Product and Description," thì cả sản phẩm và mô tả về danh mục đều sẽ hiển thị ở giao diện người dùng như hình dưới đây.
 
-   - **Description:** When you set the display mode to "Description," then only the category description will be visible on the front end.
+   - **Description:** Khi bạn đặt chế độ hiển thị thành "Description," thì chỉ mô tả danh mục sẽ hiển thị ở giao diện người dùng.
 
-   - **Product:** When you set the display mode to "Product," the product will be visible on the front end.
+   - **Product:** Khi bạn đặt chế độ hiển thị thành "Product," sản phẩm sẽ hiển thị ở giao diện người dùng.
 
       ![Edit Category](../../assets/2.2.0/images/category/editCategory.png)
 
-4. Save the category, and a new category is created by the name of Electronic Items as shown in the below image.
+4. Lưu danh mục, và một danh mục mới được tạo với tên Electronic Items như hiển thị trong hình dưới đây.
 
       ![Category Grid](../../assets/2.2.0/images/category/categoryGrid.png)
 
-5. Now check the product edit page while creating a product, and you will be able to see our new category right there.
+5. Bây giờ kiểm tra trang chỉnh sửa sản phẩm khi tạo sản phẩm, và bạn sẽ có thể thấy danh mục mới của chúng ta ngay ở đó.
 
       ![Product Page](../../assets/2.2.0/images/category/productPage.png)
 
-### Category on Front-End
+### Danh Mục trên Giao Diện Người Dùng
 
-By following the above steps, you can easily create a new category.
+Bằng cách làm theo các bước trên, bạn có thể dễ dàng tạo một danh mục mới.
 
 ![Output](../../assets/2.2.0/images/category/output.png)
 

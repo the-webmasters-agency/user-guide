@@ -1,23 +1,23 @@
-# Create Attribute Family
+# Tạo Nhóm Thuộc Tính
 
-By using Attribute Families, you can import all the required information about the product in a single step. It can be specified as a list of attributes that are related to a unique product. Here we have listed out the tutorial on product attribute families in Bagisto.
+Bằng cách sử dụng Nhóm Thuộc Tính, bạn có thể nhập tất cả thông tin cần thiết về sản phẩm trong một bước duy nhất. Nó có thể được chỉ định như một danh sách các thuộc tính liên quan đến một sản phẩm duy nhất. Ở đây chúng tôi đã liệt kê hướng dẫn về nhóm thuộc tính sản phẩm trong Bagisto.
 
-### Create Attribute Family in Bagisto 2.2.0
+### Tạo Nhóm Thuộc Tính trong Bagisto 2.2.0
 
-**Step 1**:- On the Admin Dashboard, click **Catalog** >> **Attribute Families** >> **Create Attribute Family**
+**Bước 1**:- Trên Bảng Quản Trị, nhấp **Catalog** >> **Attribute Families** >> **Create Attribute Family**
 
  ![Attribute Family](../../assets/2.2.0/images/attribute/createFamily.png)
 
-**Step 1**:-  Enter the **Attribute Family Code** and **Name** as shown in the below image.
+**Bước 2**:-  Nhập **Attribute Family Code** và **Name** như hiển thị trong hình dưới đây.
 
  ![Save Family](../../assets/2.2.0/images/attribute/saveFamily.png)
 
- So now after creating a family Save Attribute Family and a New Attribute Family have been created as shown in the below image.
+ Vì vậy bây giờ sau khi tạo một family, Lưu Nhóm Thuộc Tính và một Nhóm Thuộc Tính Mới đã được tạo như hiển thị trong hình dưới đây.
 
   ![Family Grid](../../assets/2.2.0/images/attribute/familyGrid.png)
 
- Now that the new attribute family has been created, you can edit it through the **Action**. Add the desired **Attributes** to this family based on your specific requirements. Afterward, to verify the output during the product creation process, you will be able to see the new Attribute family. Now all Attribute will be visible on the product page that belongs to these Attribute Families.
+ Bây giờ nhóm thuộc tính mới đã được tạo, bạn có thể chỉnh sửa nó thông qua **Action**. Thêm các **Thuộc Tính** mong muốn vào family này dựa trên yêu cầu cụ thể của bạn. Sau đó, để xác minh kết quả trong quá trình tạo sản phẩm, bạn sẽ có thể thấy family Thuộc Tính mới. Bây giờ tất cả Thuộc Tính sẽ hiển thị trên trang sản phẩm thuộc về các Nhóm Thuộc Tính này.
 
    ![Output](../../assets/2.2.0/images/attribute/output.png)
 
-By following the above steps, you can easily create an Attribute Families in Bagisto2.2.0.
+Bằng cách làm theo các bước trên, bạn có thể dễ dàng tạo Nhóm Thuộc Tính trong Bagisto 2.2.0.

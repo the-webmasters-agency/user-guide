@@ -1,35 +1,35 @@
-# Locales
+# Ngôn Ngữ
 
-To display your website in a different language you need to set the Locale in bagisto. Having more than one language for your website can improve the shopping experience for your customers.
+Để hiển thị trang web của bạn bằng ngôn ngữ khác, bạn cần đặt Ngôn Ngữ trong bagisto. Có nhiều hơn một ngôn ngữ cho trang web của bạn có thể cải thiện trải nghiệm mua sắm cho khách hàng.
 
-### Set Locales in Bagisto.
+### Đặt Ngôn Ngữ trong Bagisto.
 
-Here we have explained steps to set Locales in bagisto.
+Ở đây chúng tôi đã giải thích các bước để đặt Ngôn Ngữ trong bagisto.
 
-**Step 1:** On the Admin panel of Bagisto go to **Settings >> Locales >> Create Locale** as shown below.
+**Bước 1:** Trên bảng Quản trị của Bagisto vào **Settings >> Locales >> Create Locale** như hiển thị bên dưới.
 
   ![Locales](../../assets/2.2.0/images/settings/locales.png)
 
-**Step 2:** Now add the below fields 
+**Bước 2:** Bây giờ thêm các trường bên dưới 
 
-**1.Code** Every language has its unique code.
+**1.Code** Mỗi ngôn ngữ đều có mã duy nhất của nó.
 
-**2.Name** Name of the language.
+**2.Name** Tên của ngôn ngữ.
 
-**3.Directions** Add the direction in which your language work **LTR (Left To Right) , RTL (Right To Left)**. 
+**3.Directions** Thêm hướng mà ngôn ngữ của bạn hoạt động **LTR (Left To Right) , RTL (Right To Left)**. 
 
-**4.Logo** Add the logo of your language 
+**4.Logo** Thêm logo của ngôn ngữ của bạn 
 
-Now **Save Locale** as shown in below image.
+Bây giờ **Save Locale** như hiển thị trong hình dưới đây.
 
 ![New Locale](../../assets/2.2.0/images/settings/newLocale.png)
 
-**Step 3:** Now you will able to see the new **Locale** as shown below.
+**Bước 3:** Bây giờ bạn sẽ có thể thấy **Locale** mới như hiển thị bên dưới.
 
 ![Locale Grid](../../assets/2.2.0/images/settings/localeGrid.png)
 
-**Step 4:** On the admin panel open **Settings >> Channels** you will able to see your new language is situated in the currencies and Locales section to enable this click on to that and **Save Channel** as shown in below image.
+**Bước 4:** Trên bảng quản trị mở **Settings >> Channels** bạn sẽ có thể thấy ngôn ngữ mới của bạn nằm trong phần currencies và Locales để kích hoạt điều này nhấp vào đó và **Save Channel** như hiển thị trong hình dưới đây.
 
 ![Locale Channel](../../assets/2.2.0/images/settings/localeChannel.png)
 
-So by this you can easily create a **Locales** in Bagisto and make your website as per your language.
+Vì vậy bằng cách này bạn có thể dễ dàng tạo **Locales** trong Bagisto và tạo trang web của bạn theo ngôn ngữ của bạn.

@@ -1,8 +1,8 @@
-# Currencies
+# Tiền Tệ
 
-Before launching your eCommerce website you need to set up the currency in which you will doing your business. Currency symbol will be visible in product prices, order, invoices, transactions etc. Here we have mentioned steps on how to add currency in bagisto.
+Trước khi ra mắt trang web thương mại điện tử của bạn, bạn cần thiết lập đơn vị tiền tệ mà bạn sẽ kinh doanh. Ký hiệu tiền tệ sẽ hiển thị trong giá sản phẩm, đơn hàng, hóa đơn, giao dịch, v.v. Ở đây chúng tôi đã đề cập các bước về cách thêm tiền tệ trong bagisto.
 
-### Add Currency in Bagisto
+### Thêm Tiền Tệ trong Bagisto
 
 **Step 1:** On the Admin panel of Bagisto go to **Setting >> Currencies >> Create Currency** as shown in below image.
 

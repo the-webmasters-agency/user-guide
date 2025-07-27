@@ -1,5 +1,5 @@
-# Introduction
+# Giới Thiệu
 
-[Bagisto](https://bagisto.com/en/) is a fantastic open-source eCommerce platform that allows businesses to create modern online stores easily. Bagisto offers a wide range of customizable features to meet the specific needs of any online business.
+[Bagisto](https://bagisto.com/en/) là một nền tảng thương mại điện tử mã nguồn mở tuyệt vời cho phép các doanh nghiệp tạo ra các cửa hàng trực tuyến hiện đại một cách dễ dàng. Bagisto cung cấp một loạt các tính năng có thể tùy chỉnh để đáp ứng nhu cầu cụ thể của bất kỳ doanh nghiệp trực tuyến nào.
 
-The platform is built on top of the reliable [Laravel](https://laravel.com/) framework, [Tailwind CSS](https://tailwindcss.com/) and [Vue.js](https://vuejs.org/), a user-friendly JavaScript framework. It provides businesses with a user-friendly interface and powerful tools to manage their online stores, handle inventory and orders, and create a smooth shopping experience for customers
+Nền tảng này được xây dựng trên framework [Laravel](https://laravel.com/) đáng tin cậy, [Tailwind CSS](https://tailwindcss.com/) và [Vue.js](https://vuejs.org/), một framework JavaScript thân thiện với người dùng. Nó cung cấp cho các doanh nghiệp giao diện thân thiện với người dùng và các công cụ mạnh mẽ để quản lý cửa hàng trực tuyến của họ, xử lý kho hàng và đơn hàng, và tạo ra trải nghiệm mua sắm mượt mà cho khách hàng

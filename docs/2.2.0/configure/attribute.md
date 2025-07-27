@@ -1,9 +1,9 @@
-# Attribute
+# Thuộc Tính
 
-In this option, you can easily add the size of an **Image and File** upload size (in KB) from here to improve the behavior, appearance, or function.
+Trong tùy chọn này, bạn có thể dễ dàng thêm kích thước của **Hình Ảnh và File** tải lên (tính bằng KB) từ đây để cải thiện hành vi, giao diện hoặc chức năng.
 
-To add go to Admin Panel and click on **Configure >> Products >> Attribute**
+Để thêm vào Bảng Quản Trị và nhấp vào **Configure >> Products >> Attribute**
 
 ![Attribute](../../assets/2.2.0/images/configure/attribute.png)
 
-After then click on the **Save Configuration** button.
+Sau đó nhấp vào nút **Save Configuration**.

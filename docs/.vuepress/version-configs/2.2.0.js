@@ -14,15 +14,15 @@ function setVersionPrefix(children) {
 
 /* module export */
 module.exports = [
-  [setVersionPrefix("introduction/introductions"), "Introduction"],
+  [setVersionPrefix("introduction/introductions"), "Giới Thiệu"],
 
   {
-    title: "Product Types",
+    title: "Loại Sản Phẩm",
     path: setVersionPrefix("products"),
     collapsable: true,
     children: setVersionPrefix([
-      ["products/simple", "Simple Product"],
-      ["products/configurable", "Configurable Product"],
+      ["products/simple", "Sản Phẩm Đơn Giản"],
+      ["products/configurable", "Sản Phẩm Có Thể Cấu Hình"],
       // ["products/virtual", "Virtual Product"],
       // ["products/bundle", "Bundle Product"],
       // ["products/grouped", "Grouped Product"],
@@ -31,24 +31,24 @@ module.exports = [
     ]),
   },
   {
-    title: "Category",
+    title: "Danh Mục",
     path: setVersionPrefix("category"),
     collapsable: true,
     children: setVersionPrefix([
-      ["category/create-category", "Create Category"],
+      ["category/create-category", "Tạo Danh Mục"],
     ]),
   },
   {
-    title: "Attributes",
+    title: "Thuộc Tính",
     path: setVersionPrefix("attribute"),
     collapsable: true,
     children: setVersionPrefix([
-      ["attribute/product-attribute", "Create Product Attribute"],
-      ["attribute/attribute-input", "Attribute Input Type"],
+      ["attribute/product-attribute", "Tạo Thuộc Tính Sản Phẩm"],
+      ["attribute/attribute-input", "Loại Đầu Vào Thuộc Tính"],
     ]),
   },
 
-  [setVersionPrefix("attribute-family/attribute-families"), "Attribute Family"],
+  [setVersionPrefix("attribute-family/attribute-families"), "Nhóm Thuộc Tính"],
 
   // {
   //   title: "Orders",
@@ -100,24 +100,24 @@ module.exports = [
   // },
 
   {
-    title: "Settings",
+    title: "Cài Đặt",
     path: setVersionPrefix("settings"),
     collapsable: true,
     children: setVersionPrefix([
-      ["settings/locale", "Locales"],
-      ["settings/currencies", "Currencies"],
-      ["settings/exchange-rates", "Exchange Rates"],
-      ["settings/inventory-source", "Inventory Source"],
-      ["settings/channels", "Channels"],
-      ["settings/users", "Users"],
-      ["settings/roles", "Roles"],
-      ["settings/themes", "Themes"],
-      ["settings/taxes", "Taxes"],
-      ["settings/data-transfer", "Data Transfer"],
+      ["settings/locale", "Ngôn Ngữ"],
+      ["settings/currencies", "Tiền Tệ"],
+      ["settings/exchange-rates", "Tỷ Giá Hối Đoái"],
+      ["settings/inventory-source", "Nguồn Kho Hàng"],
+      ["settings/channels", "Kênh"],
+      ["settings/users", "Người Dùng"],
+      ["settings/roles", "Vai Trò"],
+      ["settings/themes", "Giao Diện"],
+      ["settings/taxes", "Thuế"],
+      ["settings/data-transfer", "Chuyển Đổi Dữ Liệu"],
     ]),
   },
   {
-    title: "Configure",
+    title: "Cấu Hình",
     path: setVersionPrefix("configure"),
     collapsable: true,
     children: setVersionPrefix([
@@ -131,9 +131,9 @@ module.exports = [
       // ["configure/product-view-page", "Product View Page"],
       // ["configure/cart-view-page", "Cart View Page"],
       // ["configure/frontend", "Frontend"],
-      ["configure/image-size", "Image Size"],
+      ["configure/image-size", "Kích Thước Hình Ảnh"],
       // ["configure/review", "Review"],
-      ["configure/attribute", "Attribute"],
+      ["configure/attribute", "Thuộc Tính"],
       // ["configure/social-share", "Social Share"],
       // ["configure/rich-snippets", "Rich Snippets"],
       // ["configure/address", "Address"],
@@ -148,7 +148,7 @@ module.exports = [
       // ["configure/payment-methods", "Payment Methods"],
       // ["configure/orders-settings", "Orders Settings"],
       // ["configure/invoice-settings", "Invoice Settings"],
-      ["configure/pricing", "Pricing"],
+      ["configure/pricing", "Định Giá"],
     ]),
   },
   // [setVersionPrefix("shipping-method/shipping-method"), "Shipping Method"],

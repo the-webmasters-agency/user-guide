@@ -1,21 +1,21 @@
-# Image Size
+# Kích Thước Hình Ảnh
 
-Storefront is the customer-facing interface of an online shop, showcasing products, categories, and navigation for a seamless shopping experience.
+Storefront là giao diện hướng tới khách hàng của một cửa hàng trực tuyến, trình bày sản phẩm, danh mục và điều hướng để có trải nghiệm mua sắm liền mạch.
 
-To add go to Admin Panel and click on **Configure >> Products**
+Để thêm vào Bảng Quản Trị và nhấp vào **Configure >> Products**
 
-### Small Image
+### Hình Ảnh Nhỏ
 
-Select **Height and Width** for the small images.
+Chọn **Height and Width** cho các hình ảnh nhỏ.
 
-### Medium Image
+### Hình Ảnh Trung Bình
 
-Select **Height and Width** for the medium images.
+Chọn **Height and Width** cho các hình ảnh trung bình.
 
-### Large Image
+### Hình Ảnh Lớn
 
-Select **Height and Width** for the Large images.
+Chọn **Height and Width** cho các hình ảnh lớn.
 
 ![Image Size](../../assets/2.2.0/images/configure/imageSize.png)
 
-After then click on the **Save Configuration** button.
+Sau đó nhấp vào nút **Save Configuration**.

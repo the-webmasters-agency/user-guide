@@ -1,9 +1,9 @@
-# Pricing
+# Định Giá
 
-Details about the cost of goods or services, including base price, discounts, taxes, and additional charges information.
+Chi tiết về chi phí của hàng hóa hoặc dịch vụ, bao gồm giá cơ bản, giảm giá, thuế và thông tin phí bổ sung.
 
-To add go to the Admin Panel and click on **Configure >> Pricing**
+Để thêm vào Bảng Quản Trị và nhấp vào **Configure >> Pricing**
 
 ![Pricing](../../assets/2.2.0/images/configure/pricing.png)
 
-After clicking on the **Save Configuration** button.
+Sau khi nhấp vào nút **Save Configuration**.

@@ -1,19 +1,19 @@
-# Attribute Input Type
+# Loại Đầu Vào Thuộc Tính
 
-Attributes can have different input types that determine not only how you enter the values for the attribute, but also how shoppers can select attributes in the case of options, or enter values.
+Thuộc tính có thể có các loại đầu vào khác nhau không chỉ xác định cách bạn nhập giá trị cho thuộc tính, mà còn xác định cách người mua hàng có thể chọn thuộc tính trong trường hợp tùy chọn, hoặc nhập giá trị.
 
-Product Attributes are a set of characteristics that define a particular product or a group of goods. This means size, color, flavor, package type, etc. constitute attributes. Product attributes are not just about the general description of a product, but they speak about the value of products that makes it unique.
+Thuộc Tính Sản Phẩm là một tập hợp các đặc điểm xác định một sản phẩm cụ thể hoặc một nhóm hàng hóa. Điều này có nghĩa là kích thước, màu sắc, hương vị, loại gói, v.v. tạo thành thuộc tính. Thuộc tính sản phẩm không chỉ là về mô tả chung của sản phẩm, mà chúng nói về giá trị của sản phẩm làm cho nó trở nên độc đáo.
 
-| Property  | Description                                                                                           |
+| Thuộc Tính  | Mô Tả                                                                                           |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Text      | A single-line input field for text.                                                                            |
-| Text Area   | A multiple-line input field for entering paragraphs of text, such as a product description.                                                                    |
-| Price         | This input type is used to create price fields that are in addition to the predefined attributes: Price, Special Price, Tier Price, and Cost.                                                               |
-| Boolean    | Displays a drop-down list with pre-defined options of Yes and No.                                                                 |
-| Select        | Displays an option to select a value.                       |
-| Multi Select        | Displays a drop-down list of values that accepts multiple selections.                                                                            |
-| Date       | Displays a date value in the preferred format.
-| Date Time       | Displays a date and time value in the preferred format and time zone.
-| Image     | This is used to show the image.The image attribute can be excluded from the storefront media browser.
-| File       | File attributes are a type of meta-data that describe and may modify how files and/or directories in a filesystem behave.
-| Checkbox       | It represents a state or option that can be toggled.
+| Text      | Trường nhập một dòng cho văn bản.                                                                            |
+| Text Area   | Trường nhập nhiều dòng để nhập các đoạn văn bản, chẳng hạn như mô tả sản phẩm.                                                                    |
+| Price         | Loại đầu vào này được sử dụng để tạo các trường giá bổ sung cho các thuộc tính được xác định trước: Price, Special Price, Tier Price và Cost.                                                               |
+| Boolean    | Hiển thị danh sách thả xuống với các tùy chọn được xác định trước là Yes và No.                                                                 |
+| Select        | Hiển thị tùy chọn để chọn một giá trị.                       |
+| Multi Select        | Hiển thị danh sách thả xuống các giá trị chấp nhận nhiều lựa chọn.                                                                            |
+| Date       | Hiển thị giá trị ngày theo định dạng ưa thích.
+| Date Time       | Hiển thị giá trị ngày và giờ theo định dạng ưa thích và múi giờ.
+| Image     | Điều này được sử dụng để hiển thị hình ảnh. Thuộc tính hình ảnh có thể được loại trừ khỏi trình duyệt media storefront.
+| File       | Thuộc tính file là một loại meta-data mô tả và có thể sửa đổi cách các file và/hoặc thư mục trong hệ thống file hoạt động.
+| Checkbox       | Nó đại diện cho một trạng thái hoặc tùy chọn có thể được chuyển đổi.
