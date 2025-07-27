@@ -49,13 +49,13 @@
         v-model="version"
         @change="changeVersion"
       >
-        <option value="2.3.0">2.3.0</option>
+        <!-- <option value="2.3.0">2.3.0</option> -->
 
         <option value="2.2.0">2.2.0</option>
 
-        <option value="2.1.0">2.1.0</option>
+        <!-- <option value="2.1.0">2.1.0</option> -->
 
-        <option value="2.0">2.0</option>
+        <!-- <option value="2.0">2.0</option> -->
       </select>   
     </div>
   </nav>
