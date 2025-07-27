@@ -15,7 +15,7 @@ module.exports = {
         docsDir: 'docs',
         docsBranch: 'master',
         editLinks: true,
-        editLinkText: 'Help us improve this page on Github.',
+        // editLinkText: 'Help us improve this page on Github.',
 
         logo: '/logo.png',
         nav: [

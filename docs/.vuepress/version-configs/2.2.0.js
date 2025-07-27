@@ -14,7 +14,7 @@ function setVersionPrefix(children) {
 
 /* module export */
 module.exports = [
-  [setVersionPrefix("introduction/introductions"), "Giới Thiệu"],
+  [setVersionPrefix("introduction"), "Giới Thiệu"],
 
   {
     title: "Loại Sản Phẩm",
