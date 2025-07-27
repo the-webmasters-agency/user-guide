@@ -1,26 +1,26 @@
-# Configure
+# Cấu Hình
 
-Generally, a configuration is the arrangement - or the process of making the arrangement - of the parts that make up a whole.
+Nói chung, cấu hình là sự sắp xếp - hoặc quá trình tạo ra sự sắp xếp - của các phần tạo nên một tổng thể.
 
 ## Magic AI
 
-Bagisto’s **Magic AI** integrates artificial intelligence into the platform, offering features like automated product descriptions, personalized product recommendations, AI-powered chatbots, and intelligent search. This feature enhances user experience and streamlines store management by reducing manual effort.
+**Magic AI** của Bagisto tích hợp trí tuệ nhân tạo vào nền tảng, cung cấp các tính năng như mô tả sản phẩm tự động, đề xuất sản phẩm cá nhân hóa, chatbot được hỗ trợ bởi AI và tìm kiếm thông minh. Tính năng này nâng cao trải nghiệm người dùng và hợp lý hóa việc quản lý cửa hàng bằng cách giảm nỗ lực thủ công.
 
-## Weight Unit
+## Đơn Vị Trọng Lượng
 
-Defines the **Weight Unit** measurement units for products in the store. Bagisto allows administrators to configure weight units such as kilograms (kg), and pounds (lbs) which are essential for accurate shipping calculations.
+Xác định các đơn vị đo lường **Đơn Vị Trọng Lượng** cho sản phẩm trong cửa hàng. Bagisto cho phép quản trị viên cấu hình các đơn vị trọng lượng như kilogram (kg) và pound (lbs) mà rất quan trọng cho việc tính toán vận chuyển chính xác.
 
-## Configurable Choices
+## Lựa Chọn Có Thể Cấu Hình
 
-This feature enables the creation of **Configurable Choices**, which have multiple variations based on attributes like size, color, or material. Admins can define different combinations, set pricing for each variant, and allow customers to select their preferred choices before purchase.
+Tính năng này cho phép tạo **Lựa Chọn Có Thể Cấu Hình**, có nhiều biến thể dựa trên thuộc tính như kích thước, màu sắc hoặc vật liệu. Quản trị viên có thể xác định các kết hợp khác nhau, đặt giá cho mỗi biến thể và cho phép khách hàng chọn lựa chọn ưa thích trước khi mua.
 
-## Custom Script
+## Script Tùy Chỉnh
 
-Allows administrators to add **Custom Script** JavaScript, CSS, or other scripts for enhancing store functionality. Common uses include integrating analytics tools like Google Analytics, adding custom tracking scripts, or modifying store behavior without changing core files.
+Cho phép quản trị viên thêm **Script Tùy Chỉnh** JavaScript, CSS hoặc các script khác để nâng cao chức năng cửa hàng. Các ứng dụng phổ biến bao gồm tích hợp các công cụ phân tích như Google Analytics, thêm script theo dõi tùy chỉnh hoặc sửa đổi hành vi cửa hàng mà không thay đổi các file cốt lõi.
 
-## Design
+## Thiết Kế
 
-Controls the appearance and layout of the storefront. **Design** includes theme customization, homepage design, header and footer settings, typography, and color schemes. Store owners can apply custom themes or tweak existing templates to align with their brand.
+Kiểm soát giao diện và bố cục của storefront. **Thiết Kế** bao gồm tùy chỉnh theme, thiết kế trang chủ, cài đặt header và footer, typography và bảng màu. Chủ cửa hàng có thể áp dụng theme tùy chỉnh hoặc điều chỉnh template hiện có để phù hợp với thương hiệu của họ.
 
 ## Back Orders
 

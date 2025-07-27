@@ -1,8 +1,9 @@
-# Attribute
+# Thuộc Tính
 
-An *Attribute* is a specification or characteristic of a product, for example, Color, Size, and Pattern are attributes of a T-Shirt. You can also create many attributes for a single product. Product attributes play a major role in the buying decision of the customer.
-Attributes determine the type of input control that is used for product options, and provide additional information for product pages.They are also used as search parameters and criteria for layered navigation, product comparison reports, and promotions. You can create as many **attributes** and **attribute families** as necessary to describe the products in your catalog in Bagisto.
+*Thuộc Tính* là một đặc điểm kỹ thuật hoặc đặc trưng của sản phẩm, ví dụ như Màu sắc, Kích thước và Mẫu là thuộc tính của một chiếc Áo Thun. Bạn cũng có thể tạo nhiều thuộc tính cho một sản phẩm. Thuộc tính sản phẩm đóng vai trò quan trọng trong quyết định mua hàng của khách hàng.
 
-Attributes can have different input types that determine not only how you enter the values for the attribute, but also how shoppers can select attributes in the case of options, or enter values.
+Thuộc tính xác định loại điều khiển đầu vào được sử dụng cho các tùy chọn sản phẩm, và cung cấp thông tin bổ sung cho các trang sản phẩm. Chúng cũng được sử dụng như các tham số tìm kiếm và tiêu chí cho điều hướng phân lớp, báo cáo so sánh sản phẩm và khuyến mãi. Bạn có thể tạo bao nhiêu **thuộc tính** và **nhóm thuộc tính** cần thiết để mô tả các sản phẩm trong catalog của bạn trong Bagisto.
 
-Product Attributes are a set of characteristics that define a particular product or a group of goods. This means size, color, flavor, package type, etc. constitute attributes. Product attributes are not just about the general description of a product, but it speaks the value of products that makes it unique.
+Thuộc tính có thể có các loại đầu vào khác nhau không chỉ xác định cách bạn nhập giá trị cho thuộc tính, mà còn xác định cách người mua sắm có thể chọn thuộc tính trong trường hợp tùy chọn, hoặc nhập giá trị.
+
+Thuộc Tính Sản Phẩm là một tập hợp các đặc điểm xác định một sản phẩm cụ thể hoặc một nhóm hàng hóa. Điều này có nghĩa là kích thước, màu sắc, hương vị, loại gói, v.v. tạo thành thuộc tính. Thuộc tính sản phẩm không chỉ là về mô tả chung của sản phẩm, mà nó nói lên giá trị của sản phẩm làm cho nó trở nên độc đáo.

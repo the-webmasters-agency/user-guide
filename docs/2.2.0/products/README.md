@@ -1,25 +1,25 @@
-# Product types
+# Loại sản phẩm
 
-**TOPICS:** Inventory, Products
+**CHỦ ĐỀ:** Kho hàng, Sản phẩm
 
-**CREATED FOR:**
-- Beginner
-- Intermediate
-- Admin
-- Leader
-- User
+**TẠO CHO:**
+- Người mới bắt đầu
+- Trung cấp
+- Quản trị viên
+- Người lãnh đạo
+- Người dùng
 
-Inventory Management supports inventory and order management for all product types in [Bagisto](https://bagisto.com/en/): simple, configurable, virtual, downloadable, bundle, and grouped. Options and requirements may differ per product type for sources, stocks, and shipping.
+Quản lý Kho hàng hỗ trợ quản lý kho hàng và đơn hàng cho tất cả các loại sản phẩm trong [Bagisto](https://bagisto.com/en/): đơn giản, có thể cấu hình, ảo, có thể tải xuống, gói và nhóm. Các tùy chọn và yêu cầu có thể khác nhau cho mỗi loại sản phẩm đối với nguồn, kho và vận chuyển.
 
-Single-source merchants create and update product settings and quantities without requiring additional updates. All created and newly imported products automatically assign to the Default Source and Default Stock, immediately available to customers if enabled and In-Stock.
+Các thương nhân nguồn đơn tạo và cập nhật cài đặt sản phẩm và số lượng mà không cần cập nhật bổ sung. Tất cả sản phẩm được tạo và mới nhập khẩu tự động gán cho Nguồn Mặc định và Kho Mặc định, ngay lập tức có sẵn cho khách hàng nếu được kích hoạt và Còn hàng.
 
-Multi-source merchants assign sources, quantities per source, and settings during or after product creation. Commerce assigns all newly imported products to the Default Source, requiring additional edits to assign sources and quantities.
+Các thương nhân đa nguồn gán nguồn, số lượng mỗi nguồn và cài đặt trong hoặc sau khi tạo sản phẩm. Commerce gán tất cả sản phẩm mới nhập khẩu cho Nguồn Mặc định, yêu cầu chỉnh sửa bổ sung để gán nguồn và số lượng.
 
-| Product Type   | Shipping and Source Selection Algorithm                                                                                          |
+| Loại Sản Phẩm   | Thuật toán Lựa chọn Vận chuyển và Nguồn                                                                                          |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Simple          | Supports SSA recommendations and overrides at shipping.                                                                            |
-| Configurable    | Supports SSA recommendations and overrides at shipping.                                                                            |
-| Virtual         | Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. You cannot adjust these results.                                                                 |
-| Downloadable    | Always uses the SSA recommendation. The system runs the algorithm implicitly when it creates invoices, and always uses the suggested results. You cannot adjust these results.                                                                 |
-| Bundle          | Supports SSA recommendations and overrides at shipping.                                                                            |
-| Grouped         | Supports SSA recommendations and overrides at shipping.                                                                            |
+| Đơn giản          | Hỗ trợ khuyến nghị SSA và ghi đè khi vận chuyển.                                                                            |
+| Có thể cấu hình    | Hỗ trợ khuyến nghị SSA và ghi đè khi vận chuyển.                                                                            |
+| Ảo         | Luôn sử dụng khuyến nghị SSA. Hệ thống chạy thuật toán ngầm khi tạo hóa đơn, và luôn sử dụng kết quả được đề xuất. Bạn không thể điều chỉnh các kết quả này.                                                                 |
+| Có thể tải xuống    | Luôn sử dụng khuyến nghị SSA. Hệ thống chạy thuật toán ngầm khi tạo hóa đơn, và luôn sử dụng kết quả được đề xuất. Bạn không thể điều chỉnh các kết quả này.                                                                 |
+| Gói          | Hỗ trợ khuyến nghị SSA và ghi đè khi vận chuyển.                                                                            |
+| Nhóm         | Hỗ trợ khuyến nghị SSA và ghi đè khi vận chuyển.                                                                            |
