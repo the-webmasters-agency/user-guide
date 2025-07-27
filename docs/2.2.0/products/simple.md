@@ -1,93 +1,93 @@
-# Simple Product
+# Sản Phẩm Đơn Giản
 
-A **simple product** is a product type in e-commerce that does not require customers to choose additional attributes (such as size or color) to add to the cart. It should be a physical item and can be shipped to customers.
+**Sản phẩm đơn giản** là một loại sản phẩm trong thương mại điện tử không yêu cầu khách hàng chọn thêm thuộc tính (như kích thước hoặc màu sắc) để thêm vào giỏ hàng. Nó phải là một vật phẩm vật lý và có thể được vận chuyển đến khách hàng.
 
-Therefore, any service, such as downloadable items, does not count as a simple product. This is the step-by-step tutorial on how to add a simple product in [Bagisto](https://bagisto.com/en/).
+Do đó, bất kỳ dịch vụ nào, chẳng hạn như các mặt hàng có thể tải xuống, đều không được tính là sản phẩm đơn giản. Đây là hướng dẫn từng bước về cách thêm sản phẩm đơn giản trong [Bagisto](https://bagisto.com/en/).
 
-### Create Simple Product in Bagisto 2.2.0
-1. Click on **Catalog >> Products >>** select **Simple** under Product Type.
+### Tạo Sản Phẩm Đơn Giản trong Bagisto 2.2.0
+1. Nhấp vào **Catalog >> Products >>** chọn **Simple** trong Product Type.
 
     ![Simple](../../assets/2.2.0/images/simple-product/simple.png)
 
-Now **Save the Product**, and you will get redirected to the Edit product page as shown below.
+Bây giờ **Lưu Sản Phẩm**, và bạn sẽ được chuyển hướng đến trang Chỉnh sửa sản phẩm như hiển thị bên dưới.
 
-### General Attributes
-Below is the list of fields you need to fill under General Attributes.
+### Thuộc Tính Chung
+Dưới đây là danh sách các trường bạn cần điền vào phần Thuộc Tính Chung.
 
    ![editProduct](../../assets/2.2.0/images/simple-product/editProduct.png)
 
-### Description
-Below is the list of the fields you need to fill in regarding the product under description.
+### Mô Tả
+Dưới đây là danh sách các trường bạn cần điền liên quan đến sản phẩm trong phần mô tả.
 
-#### Short Description
-Enter a short description of the feature of the product.
+#### Mô Tả Ngắn
+Nhập mô tả ngắn về tính năng của sản phẩm.
 
-#### Description
-Mention your product in detail.
+#### Mô Tả
+Đề cập chi tiết về sản phẩm của bạn.
 
  ![description](../../assets/2.2.0/images/simple-product/description.png)
 
-### Meta Description
-Below is the list of fields that you need to provide under the meta description to make your product easily searchable on search engines.
+### Mô Tả Meta
+Dưới đây là danh sách các trường bạn cần cung cấp trong phần mô tả meta để làm cho sản phẩm của bạn dễ dàng tìm kiếm trên các công cụ tìm kiếm.
 
-#### Meta Title
-Provide the main title of the product by which your product will be known.
+#### Tiêu Đề Meta
+Cung cấp tiêu đề chính của sản phẩm mà sản phẩm của bạn sẽ được biết đến.
 
-#### Meta Keyword
-The meta keyword for the product needs to be provided to improve its searchability on the search engine for specific keywords.
+#### Từ Khóa Meta
+Từ khóa meta cho sản phẩm cần được cung cấp để cải thiện khả năng tìm kiếm trên công cụ tìm kiếm cho các từ khóa cụ thể.
 
-#### Meta Description
-Enter the description so that products can easily appear in search engine listings.
+#### Mô Tả Meta
+Nhập mô tả để sản phẩm có thể dễ dàng xuất hiện trong danh sách công cụ tìm kiếm.
 
 ![metaDescription](../../assets/2.2.0/images/simple-product/metaDescription.png)
 
-### Images
-To add the product images, click on **Add Images**. You can add multiple images for your product.
+### Hình Ảnh
+Để thêm hình ảnh sản phẩm, nhấp vào **Add Images**. Bạn có thể thêm nhiều hình ảnh cho sản phẩm của mình.
 
 ![image](../../assets/2.2.0/images/simple-product/image.png)
 
-### New
-Enable the toggle button if you want to feature the product as a new product. The resulting product will be shown under the New Products section.
+### Mới
+Bật nút chuyển đổi nếu bạn muốn giới thiệu sản phẩm như một sản phẩm mới. Sản phẩm kết quả sẽ được hiển thị trong phần Sản Phẩm Mới.
 
-### Featured
-Enable the toggle button if you want to show the product under the Featured Products section.
+### Nổi Bật
+Bật nút chuyển đổi nếu bạn muốn hiển thị sản phẩm trong phần Sản Phẩm Nổi Bật.
 
-### Visible Individually
-Enable the toggle button so that the product will be visible on the front end.
+### Hiển Thị Riêng Lẻ
+Bật nút chuyển đổi để sản phẩm sẽ hiển thị ở giao diện người dùng.
 
-### Status
-Enable the toggle button to enable the product on your eCommerce store.
+### Trạng Thái
+Bật nút chuyển đổi để kích hoạt sản phẩm trên cửa hàng thương mại điện tử của bạn.
 
-### Guest Checkout
-Enable the toggle button to allow the product to be ordered by guest customers.
+### Thanh Toán Khách
+Bật nút chuyển đổi để cho phép sản phẩm được đặt hàng bởi khách hàng khách.
 
 ![toggleButtons](../../assets/2.2.0/images/simple-product/toggleButtons.png)
 
-### Price
-Insert the price, cost, and special price, and set the special price date for which the special price will be shown on the website.
+### Giá
+Chèn giá, chi phí và giá đặc biệt, và đặt ngày giá đặc biệt mà giá đặc biệt sẽ được hiển thị trên trang web.
 
 ![price](../../assets/2.2.0/images/simple-product/price.png)
 
-### Shipping
-Set the Width, Height, Depth, and Weight of the product.
+### Vận Chuyển
+Đặt Chiều Rộng, Chiều Cao, Độ Sâu và Trọng Lượng của sản phẩm.
 
 ![shipping](../../assets/2.2.0/images/simple-product/shipping.png)
 
-### Inventories
-Insert the quantity of the product that is there in your inventory. By default, it is set to 0 so it shows on the front end as out of stock.
+### Kho Hàng
+Chèn số lượng sản phẩm có trong kho của bạn. Mặc định, nó được đặt thành 0 nên nó hiển thị ở giao diện người dùng là hết hàng.
 
 ![inventories](../../assets/2.2.0/images/simple-product/inventories.png)
 
-### Channels
+### Kênh
 
-Select the channels in which you want to save this product.
+Chọn các kênh mà bạn muốn lưu sản phẩm này.
 
 ![Channels](../../assets/2.2.0/images/simple-product/channels.png)
 
-At last, **Save the Product**.
+Cuối cùng, **Lưu Sản Phẩm**.
 
-### Front End
-The product will be visible as given below on the front end.
+### Giao Diện Người Dùng
+Sản phẩm sẽ hiển thị như được đưa ra bên dưới ở giao diện người dùng.
 
 ![product](../../assets/2.2.0/images/simple-product/product.png)
 

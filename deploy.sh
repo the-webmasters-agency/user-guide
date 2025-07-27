@@ -9,11 +9,11 @@ npm run docs:build
 # navigate into the build output directory
 cd docs/.vuepress/dist
 
-echo 'docs.bagisto.com' > CNAME
+echo 'the-webmasters-agency.github.io' > CNAME
 
 git init
 git add -A
 git commit -m 'chore: deploy docs to GitHub'
-git push -f git@github.com:bagisto/user-guide.git master:gh-pages
+git push -f git@github.com:the-webmasters-agency/user-guide.git master:gh-pages
 
 cd -
