@@ -16,6 +16,16 @@ function setVersionPrefix(children) {
 module.exports = [
   [setVersionPrefix("introduction/introductions"), "Giới Thiệu"],
   {
+    title: "Cấu hình tổng quan",
+    path: setVersionPrefix("site-config"),
+    collapsable: true,
+    children: setVersionPrefix([
+      ["site-config/home-info", "Cấu hình thông tin trang chủ"],
+      ["site-config/home-banner", "Cấu hình banner slide trang chủ"],
+      ['site-config/achievement', 'Cấu hình các thành tựu']
+    ])
+  },
+  {
     title: "Blog",
     path: setVersionPrefix("blog"),
     collapsable: true,
@@ -31,6 +41,14 @@ module.exports = [
     children: setVersionPrefix([
       ["faqs/items", "Câu Hỏi Thường Gặp"],
       ["faqs/categories", "Danh Mục Câu Hỏi Thường Gặp"],
+    ]),
+  },
+  {
+    title: "Đại lý",
+    path: setVersionPrefix("dealers"),
+    collapsable: true,
+    children: setVersionPrefix([
+      ["dealers/dealers", "Đại Lý"],
     ]),
   },
   {
