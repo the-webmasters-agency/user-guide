@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/',
+    base: '/user-guide/',
     port: '8080',
     cache: false,
     title: '',

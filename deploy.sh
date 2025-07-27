@@ -9,7 +9,7 @@ npm run docs:build
 # navigate into the build output directory
 cd docs/.vuepress/dist
 
-echo 'detech-motor-docs.thewebmasters.agency' > CNAME
+echo 'the-webmasters-agency.github.io' > CNAME
 
 git init
 git add -A
