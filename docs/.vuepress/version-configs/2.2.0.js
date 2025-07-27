@@ -14,8 +14,25 @@ function setVersionPrefix(children) {
 
 /* module export */
 module.exports = [
-  [setVersionPrefix("introduction"), "Giới Thiệu"],
-
+  [setVersionPrefix("introduction/introductions"), "Giới Thiệu"],
+  {
+    title: "Blog",
+    path: setVersionPrefix("blog"),
+    collapsable: true,
+    children: setVersionPrefix([
+      ["blog/posts", "Bài Viết"],
+      ["blog/categories", "Danh Mục Bài Viết"],
+    ]),
+  },
+  {
+    title: "Câu Hỏi Thường Gặp",
+    path: setVersionPrefix("faqs"),
+    collapsable: true,
+    children: setVersionPrefix([
+      ["faqs/items", "Câu Hỏi Thường Gặp"],
+      ["faqs/categories", "Danh Mục Câu Hỏi Thường Gặp"],
+    ]),
+  },
   {
     title: "Loại Sản Phẩm",
     path: setVersionPrefix("products"),
@@ -38,6 +55,7 @@ module.exports = [
       ["category/create-category", "Tạo Danh Mục"],
     ]),
   },
+
   {
     title: "Thuộc Tính",
     path: setVersionPrefix("attribute"),

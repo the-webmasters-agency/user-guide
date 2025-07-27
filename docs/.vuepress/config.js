@@ -14,7 +14,7 @@ module.exports = {
         docsRepo: 'bagisto/bagisto-docs',
         docsDir: 'docs',
         docsBranch: 'master',
-        editLinks: true,
+        // editLinks: true,
         // editLinkText: 'Help us improve this page on Github.',
 
         logo: '/logo.png',
