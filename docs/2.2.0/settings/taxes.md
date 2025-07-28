@@ -1,49 +1,49 @@
-# Taxes
+# Thuế
 
-In e-commerce, there are various taxes involved while purchasing the product. These taxes and rates of taxes differ from country to country. Here we have explained how you can create and manage taxes in Bagisto.
+Trong thương mại điện tử, có nhiều loại thuế khác nhau áp dụng khi mua sản phẩm. Các loại thuế và mức thuế này khác nhau tùy theo từng quốc gia. Dưới đây là hướng dẫn cách tạo và quản lý thuế trong Bagisto.
 
-## Tax Rate
+## Thuế suất
 
-**Step 1:-** It can be set on the admin panel click on **Setting >> Taxes >> Tax Rates >> Create Tax Rate** as shown in the below image.
+**Bước 1:** Có thể thiết lập trên trang quản trị bằng cách nhấp vào **Cài đặt >> Thuế >> Thuế suất >> Tạo thuế suất** như hình dưới.
 
-![Tax Rate](../../assets/2.2.0/images/settings/taxRate.png)
+![Thuế suất](../../assets/2.2.0/images/settings/taxRate.png)
 
-**Step 2:-** Enter the **Identifier, Country, State, Zip Code, and Tax Rate**
+**Bước 2:** Nhập **Định danh, Quốc gia, Bang/Tỉnh, Mã bưu điện và Thuế suất**
 
-**Note:-** You can also set the zip range area so that tax will be applied only within this zip range then click on **Save Tax Rate.**   
+**Lưu ý:** Bạn cũng có thể thiết lập phạm vi mã bưu điện để thuế chỉ áp dụng trong phạm vi này, sau đó nhấp vào **Lưu thuế suất.**
 
-![Save Tax Rate](../../assets/2.2.0/images/settings/savetaxRate.png)
+![Lưu thuế suất](../../assets/2.2.0/images/settings/savetaxRate.png)
 
-## Tax Categories
+## Danh mục thuế
 
-**Step 1:-** To Create Tax Categories click on **Tax Categories** 
+**Bước 1:** Để tạo danh mục thuế, nhấp vào **Danh mục thuế**
 
-### Add the Below Fields
+### Thêm các trường sau
 
-**1.Code:-** Enter Unique code of the tax category.
+**1. Mã:** Nhập mã duy nhất cho danh mục thuế.
 
-**2.Name:-** Enter the name of the tax category.
+**2. Tên:** Nhập tên danh mục thuế.
 
-**3.Description:-** Enter the description of the tax category.
+**3. Mô tả:** Nhập mô tả cho danh mục thuế.
 
-**3.Tax Rate:-** Enter the Tax Rate.
+**4. Thuế suất:** Nhập thuế suất.
 
-Click on **Save Tax Category** button.
+Nhấp vào nút **Lưu danh mục thuế**.
 
-![Save Category](../../assets/2.2.0/images/settings/saveCategory.png)
+![Lưu danh mục](../../assets/2.2.0/images/settings/saveCategory.png)
 
-**Step 3:-** Set the Tax Category while creating a product
+**Bước 3:** Thiết lập danh mục thuế khi tạo sản phẩm
 
-![Product Category](../../assets/2.2.0/images/settings/productCategory.png)
+![Danh mục sản phẩm](../../assets/2.2.0/images/settings/productCategory.png)
 
-### Front End:-
+### Giao diện người dùng:
 
-Enter the Billing Address or if you have the account click on sign in and then **Continue**.
+Nhập địa chỉ thanh toán hoặc nếu đã có tài khoản thì đăng nhập và nhấp **Tiếp tục**.
 
-Select the **Shipping** and **Payment** method and **Continue**.
+Chọn **Phương thức vận chuyển** và **Phương thức thanh toán** rồi nhấp **Tiếp tục**.
 
-![Tax Front](../../assets/2.2.0/images/settings/taxFront.png)
+![Thuế giao diện](../../assets/2.2.0/images/settings/taxFront.png)
 
-A tax will appear on the front end, click on Place Order, Here we set the 20% tax so the tax will be applied to the product price.
+Thuế sẽ hiển thị ở giao diện người dùng, nhấp vào Đặt hàng. Ở đây, chúng tôi thiết lập thuế 20% nên thuế sẽ được áp dụng vào giá sản phẩm.
 
-So by this you can easily create **Taxes** in Bagisto.
+Như vậy, bạn có thể dễ dàng tạo **Thuế** trong Bagisto.

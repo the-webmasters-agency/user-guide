@@ -1,53 +1,53 @@
-# Inventory Source
+# Nguồn Hàng Tồn Kho
 
-Multi-Warehouse Inventory is one of the unique features of Bagisto. Here we will explain how you can manage multi-warehouse inventory in Laravel eCommerce and provide reliable service to your customer. Having a single inventory source can pose some restrictions for your eCommerce store.
+Quản lý tồn kho đa kho là một trong những tính năng độc đáo của Bagisto. Ở đây, chúng tôi sẽ giải thích cách bạn có thể quản lý tồn kho đa kho trong Laravel eCommerce và cung cấp dịch vụ đáng tin cậy cho khách hàng của mình. Việc chỉ có một nguồn hàng tồn kho có thể gây ra một số hạn chế cho cửa hàng thương mại điện tử của bạn.
 
-For instance, suppose you have only one inventory in Delhi. A Customer from Chennai has ordered some products. So delivering that product from the Delhi location can have some impacts like delay in delivery of the product, increased transportation cost, etc. However, if you have an inventory in Chennai, then the product will reach the customer very quickly which will further cut down the time and shipping cost. 
+Ví dụ, giả sử bạn chỉ có một kho hàng ở Delhi. Một khách hàng từ Chennai đặt mua một số sản phẩm. Việc giao hàng từ kho Delhi có thể dẫn đến các vấn đề như chậm giao hàng, tăng chi phí vận chuyển, v.v. Tuy nhiên, nếu bạn có một kho hàng ở Chennai, sản phẩm sẽ đến tay khách hàng rất nhanh, giúp giảm thời gian và chi phí vận chuyển.
 
-By using Multi-Warehouse Inventory you can easily manage all inventory sources. In Bagisto, you can create as many inventory sources and easily manage them.
+Bằng cách sử dụng quản lý tồn kho đa kho, bạn có thể dễ dàng quản lý tất cả các nguồn hàng tồn kho. Trong Bagisto, bạn có thể tạo nhiều nguồn hàng tồn kho và dễ dàng quản lý chúng.
 
-### Easy step to managing your inventory in Bagisto 2.2.0
+### Các bước đơn giản để quản lý tồn kho trong Bagisto 2.2.0
 
-**Step 1:** On the Admin panel of Bagisto click on **Setting >> Inventory Sources >> Create Inventory Source** as shown in the below image.
+**Bước 1:** Trên bảng quản trị của Bagisto, nhấp vào **Cài đặt >> Nguồn Hàng Tồn Kho >> Tạo Nguồn Hàng Tồn Kho** như hình dưới đây.
 
-  ![Inventory Source](../../assets/2.2.0/images/settings/inventorySource.png)
+  ![Nguồn Hàng Tồn Kho](../../assets/2.2.0/images/settings/inventorySource.png)
 
-**Step 2:** **General**
+**Bước 2:** **Chung**
 
-Enter the **Code, Name, Description, Latitude, Longitude, and Priority**, and set the **Status** active.
+Nhập **Mã, Tên, Mô tả, Vĩ độ, Kinh độ, và Độ ưu tiên**, và đặt **Trạng thái** là hoạt động.
 
-![Inventory Configuration](../../assets/2.2.0/images/settings/inventoryConfiguration.png)
+![Cấu hình Tồn Kho](../../assets/2.2.0/images/settings/inventoryConfiguration.png)
 
-**Step 3:** **Contact Information**
+**Bước 3:** **Thông Tin Liên Hệ**
 
-You have to enter a **Name, Email, Fax, Contact Number**  
+Bạn cần nhập **Tên, Email, Fax, Số điện thoại liên hệ**  
 
-![Contact Info](../../assets/2.2.0/images/settings/contactInfo.png)
+![Thông Tin Liên Hệ](../../assets/2.2.0/images/settings/contactInfo.png)
 
-**Step 4:** **Source Address**
+**Bước 4:** **Địa Chỉ Nguồn Hàng**
 
-You have to enter the source address like country, address, state, city, etc of your inventory.
+Bạn cần nhập địa chỉ nguồn hàng như quốc gia, địa chỉ, bang, thành phố, v.v. của kho hàng.
 
-![Source Address](../../assets/2.2.0/images/settings/sourceAddress.png)
+![Địa Chỉ Nguồn Hàng](../../assets/2.2.0/images/settings/sourceAddress.png)
 
-After that, you need to click on **Save Inventory Source**. So now you will able to see our new inventory source is been created successfully as shown in the below image.
+Sau đó, bạn cần nhấp vào **Lưu Nguồn Hàng Tồn Kho**. Bây giờ bạn sẽ thấy nguồn hàng tồn kho mới đã được tạo thành công như hình dưới đây.
 
-![Inventory Output](../../assets/2.2.0/images/settings/inventoryOutput.png)
+![Kết Quả Tồn Kho](../../assets/2.2.0/images/settings/inventoryOutput.png)
 
-**Step 5:** Click on **Setting >> Channel**. Open the selected channel in **Edit Mode >> Inventory Sources**. This is the multi-select type where you can select multiple inventory sources for your channels. After that, click **Save Channel**.
+**Bước 5:** Nhấp vào **Cài đặt >> Kênh**. Mở kênh đã chọn ở **Chế độ chỉnh sửa >> Nguồn Hàng Tồn Kho**. Đây là kiểu chọn nhiều, bạn có thể chọn nhiều nguồn hàng tồn kho cho các kênh của mình. Sau đó, nhấp **Lưu Kênh**.
 
-### Inventory Setting on the Product Page
+### Cài Đặt Tồn Kho Trên Trang Sản Phẩm
 
-Click on **Catalog >> Products.** Open the selected product in **Edit Mode** and enter the **quantity** in each inventory source. At last, after filling up the necessary fields, click **Save Product Note:-** If you do not enter any quantity, by default 0 is saved, and having 0 quantity inventory will be not visible in the inventory option on the shipment page.
+Nhấp vào **Danh mục >> Sản phẩm.** Mở sản phẩm đã chọn ở **Chế độ chỉnh sửa** và nhập **số lượng** cho từng nguồn hàng tồn kho. Cuối cùng, sau khi điền đầy đủ các trường cần thiết, nhấp **Lưu Sản Phẩm**. Lưu ý: Nếu bạn không nhập số lượng, mặc định sẽ lưu là 0, và kho hàng có số lượng 0 sẽ không hiển thị trong tùy chọn tồn kho trên trang vận chuyển.
 
-![Product Inventory](../../assets/2.2.0/images/settings/productInventory.png)
+![Tồn Kho Sản Phẩm](../../assets/2.2.0/images/settings/productInventory.png)
 
-### Inventory Setting on the Shipment Page
+### Cài Đặt Tồn Kho Trên Trang Vận Chuyển
 
-Click on **Sales >> Orders**. Open the selected order in **Edit Mode >> Invoice >> Save Invoice >> Ship** Under the Product Ordered Section, Admin can decide from which inventory they want to deliver the product.
+Nhấp vào **Bán hàng >> Đơn hàng**. Mở đơn hàng đã chọn ở **Chế độ chỉnh sửa >> Hóa đơn >> Lưu hóa đơn >> Giao hàng**. Trong phần Sản phẩm đã đặt hàng, quản trị viên có thể quyết định giao sản phẩm từ kho hàng nào.
 
-![Inventory Setting](../../assets/2.2.0/images/settings/inventorySetting.png)
+![Cài Đặt Tồn Kho](../../assets/2.2.0/images/settings/inventorySetting.png)
 
-**Note:-** You can enable only one Inventory at a  time when you select one inventory rest inventory will be automatically disabled. For example, I selected Noida Warehouse so another inventory will be disabled. Enter the quantity to ship and **Create Shipment**.
+**Lưu ý:** Bạn chỉ có thể bật một kho hàng tại một thời điểm, khi bạn chọn một kho hàng thì các kho còn lại sẽ tự động bị vô hiệu hóa. Ví dụ, tôi chọn kho Noida thì các kho khác sẽ bị vô hiệu hóa. Nhập số lượng cần giao và **Tạo vận chuyển**.
 
-So by this you can easily create **Inventory Sources** in Bagisto. 
+Như vậy, bạn có thể dễ dàng tạo **Nguồn Hàng Tồn Kho** trong Bagisto.

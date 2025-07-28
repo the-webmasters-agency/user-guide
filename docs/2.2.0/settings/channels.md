@@ -1,96 +1,97 @@
-# Channels 
+# Kênh (Channels)
 
-Bagisto allows you to set up and manage multiple instances of domains or stores in a single Bagisto backend. This guide will walk you through how to create multiple websites with different domains in Bagisto.
+Bagisto cho phép bạn thiết lập và quản lý nhiều miền hoặc cửa hàng trên cùng một hệ thống quản trị Bagisto. Hướng dẫn này sẽ giúp bạn tạo nhiều website với các tên miền khác nhau trong Bagisto.
 
-### Creating Channels in Bagisto.
+### Tạo Kênh trong Bagisto
 
-**Step 1:** The bagisto’s channel functionality allows creating multiple websites in bagisto. Here you need to proceed towards **Settings >> Channels >> Create Channel** as shown in below image.
+**Bước 1:** Chức năng kênh của Bagisto cho phép tạo nhiều website trong hệ thống. Bạn cần truy cập **Cài đặt >> Kênh >> Tạo Kênh** như hình dưới đây.
 
   ![Channels](../../assets/2.2.0/images/settings/channels.png)
 
-### General
+### Thông tin chung
 
-Below are the fields that fall under the General section.
+Dưới đây là các trường thuộc phần Thông tin chung.
 
-**1.Code:** Provide a code for your channel
+**1. Mã:** Nhập mã cho kênh của bạn
 
-**2.Name:** Provide an identifying name for your Channel
+**2. Tên:** Nhập tên nhận diện cho kênh
 
-**3.Description:** Provide more description about your channels regarding its uses, products that would be selling etc.
+**3. Mô tả:** Mô tả thêm về kênh, mục đích sử dụng, các sản phẩm sẽ bán, v.v.
 
-**4.Inventory Sources:** Here you select or multi-select inventories that you would be using for this particular channel.
+**4. Nguồn kho:** Chọn hoặc chọn nhiều kho hàng sẽ sử dụng cho kênh này.
 
-**5.Root Category:** One root category can be selected from the drop-down for your channel.
+**5. Danh mục gốc:** Chọn một danh mục gốc từ danh sách cho kênh.
 
-**6.Hostname:** Here you can provide the URL of your website which you want to connect with your main bagisto’s instance.
+**6. Tên miền:** Nhập URL của website bạn muốn kết nối với hệ thống Bagisto chính.
 
   ![General](../../assets/2.2.0/images/settings/general.png)
 
-### Currencies and Locales
-Here the settings needed to be done for the currency and locale
+### Tiền tệ và Ngôn ngữ
 
-**1.Locales:** Here you can select or multi-select locales that you would be using for the particular channel.
+Thiết lập tiền tệ và ngôn ngữ cho kênh.
 
-**2.Default Locale:** Here amongst the locales that you have created, you can select the locale which should be there as default for your channel.
+**1. Ngôn ngữ:** Chọn hoặc chọn nhiều ngôn ngữ sẽ sử dụng cho kênh.
 
-**3.Currencies:** Here you select or multi-select currencies that you would be using for the particular channel.
+**2. Ngôn ngữ mặc định:** Trong các ngôn ngữ đã tạo, chọn ngôn ngữ mặc định cho kênh.
+
+**3. Tiền tệ:** Chọn hoặc chọn nhiều loại tiền tệ sẽ sử dụng cho kênh.
 
   ![Currency Local](../../assets/2.2.0/images/settings/currencyLocal.png)
 
-### Design
+### Giao diện
 
-Within the design section, you can choose a theme from the drop-down option if multiple themes have been created.
+Trong phần giao diện, bạn có thể chọn chủ đề từ danh sách nếu đã tạo nhiều chủ đề.
 
  ![Theme](../../assets/2.2.0/images/settings/theme.png)
 
-### Logo 
+### Logo
 
-For creating a frontend **Logo** kindly click on this logo add image option and select the logo from your system and then click on **Save Channel** Button.
+Để tạo **Logo** cho giao diện người dùng, nhấn vào tùy chọn thêm hình ảnh logo, chọn logo từ máy tính và nhấn **Lưu Kênh**.
 
  ![Theme1](../../assets/2.2.0/images/settings/frontendLogos.png)
 
-### Logo on Frontend
+### Logo trên giao diện người dùng
 
-Now check the output on your frontend logo is updated successfully.
+Kiểm tra kết quả trên giao diện, logo đã được cập nhật thành công.
 
  ![Theme1](../../assets/2.2.0/images/settings/logoOutputs.png)
 
-### Favicon 
+### Favicon
 
-For creating a frontend **Favicon** kindly click on this favicon add image option and select the logo from your system and then click on **Save Channel** Button.
+Để tạo **Favicon** cho giao diện người dùng, nhấn vào tùy chọn thêm hình ảnh favicon, chọn logo từ máy tính và nhấn **Lưu Kênh**.
 
  ![Theme1](../../assets/2.2.0/images/settings/frontendFavicon.png)
  
-### Favicon on Frontend 
+### Favicon trên giao diện người dùng
 
-Now check the output on your frontend logo is updated successfully.
+Kiểm tra kết quả trên giao diện, favicon đã được cập nhật thành công.
 
  ![Theme1](../../assets/2.2.0/images/settings/faviconOutput.png)
 
-### Home Page SEO
+### SEO Trang chủ
 
-**1.Meta Title** So Provide the main title of the product by which your product will be known.
+**1. Tiêu đề Meta:** Nhập tiêu đề chính để sản phẩm được nhận diện.
 
-**2.Meta Keyword** The meta keyword for the product needs to be provided to improve its searchability on the search engine for specific keywords.
+**2. Từ khóa Meta:** Nhập từ khóa để cải thiện khả năng tìm kiếm trên công cụ tìm kiếm.
 
-**3.Meta Description** Enter the description so that products can easily appear in search engine listings.
+**3. Mô tả Meta:** Nhập mô tả để sản phẩm dễ xuất hiện trên kết quả tìm kiếm.
 
  ![SEO](../../assets/2.2.0/images/settings/seo.png)
 
- ### Maintenance Mode
+ ### Chế độ bảo trì
 
-In Bagisto, **maintenance mode** refers to a feature that allows you to put your online store into a temporary offline state. This mode is typically used when you need to perform updates, maintenance tasks, or make significant changes to your store's backend or frontend without disrupting the customer experience.
+Trong Bagisto, **chế độ bảo trì** cho phép bạn tạm thời đưa cửa hàng về trạng thái ngoại tuyến. Chế độ này thường dùng khi cần cập nhật, bảo trì hoặc thay đổi lớn mà không ảnh hưởng đến trải nghiệm khách hàng.
 
-**1) Message-** Enter the message that will visible to the customers when they visit your store under maintenance mode.
+**1) Thông báo:** Nhập thông báo sẽ hiển thị cho khách khi truy cập cửa hàng đang bảo trì.
 
-**2) Allowed IPs-** Enter the IP address that will run under maintenance mode
+**2) IP được phép:** Nhập địa chỉ IP được phép truy cập khi ở chế độ bảo trì.
 
-**3) Status-** Enable/Disable the status for the maintenance mode.
+**3) Trạng thái:** Bật/Tắt chế độ bảo trì.
 
  ![Maintenance Mode](../../assets/2.2.0/images/settings/maintenanceMode.png) 
 
-Now click on **Save Channel** and you will able to see the new **Channel** as shown below.
+Sau đó nhấn **Lưu Kênh** và bạn sẽ thấy kênh mới như hình dưới.
 
  ![Channel Grid](../../assets/2.2.0/images/settings/channelGrid.png)
 
-So by this you can easily create a new **Channels** in Bagisto.
+Như vậy, bạn có thể dễ dàng tạo mới **Kênh** trong Bagisto.

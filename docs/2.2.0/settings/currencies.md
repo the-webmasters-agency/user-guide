@@ -1,41 +1,41 @@
 # Tiền Tệ
 
-Trước khi ra mắt trang web thương mại điện tử của bạn, bạn cần thiết lập đơn vị tiền tệ mà bạn sẽ kinh doanh. Ký hiệu tiền tệ sẽ hiển thị trong giá sản phẩm, đơn hàng, hóa đơn, giao dịch, v.v. Ở đây chúng tôi đã đề cập các bước về cách thêm tiền tệ trong bagisto.
+Trước khi ra mắt trang web thương mại điện tử của bạn, bạn cần thiết lập đơn vị tiền tệ mà bạn sẽ kinh doanh. Ký hiệu tiền tệ sẽ hiển thị trong giá sản phẩm, đơn hàng, hóa đơn, giao dịch, v.v. Ở đây chúng tôi đã đề cập các bước về cách thêm tiền tệ trong Bagisto.
 
 ### Thêm Tiền Tệ trong Bagisto
 
-**Step 1:** On the Admin panel of Bagisto go to **Setting >> Currencies >> Create Currency** as shown in below image.
+**Bước 1:** Trên bảng quản trị của Bagisto, vào **Cài đặt >> Tiền tệ >> Tạo Tiền tệ** như hình dưới đây.
 
 ![Currency](../../assets/2.2.0/images/settings/createCurrency.png)
 
-**Step 2:** Now Enter the below details 
+**Bước 2:** Nhập các thông tin sau
 
-**1) Code-** Code of the currency.
+**1) Mã-** Mã của tiền tệ.
 
-**2) Name-** Name of the currecy. 
+**2) Tên-** Tên của tiền tệ.
 
-**3) Symbol-** Symbol of the currency.
+**3) Ký hiệu-** Ký hiệu của tiền tệ.
 
-**4) Decimal-** Decimal of the currency
+**4) Số thập phân-** Số thập phân của tiền tệ.
 
-**5) Group Seprator-** It helps to separate the currency by ",". For example - 2,50,000
+**5) Dấu phân cách nhóm-** Dùng để phân tách tiền tệ bằng dấu ",". Ví dụ - 2,50,000
 
-**6) Decimal Separator-** It helps to separate decimal values.  For example, if you enter 3 decimal values then the currency will be 200.000
+**6) Dấu phân cách thập phân-** Dùng để phân tách giá trị thập phân. Ví dụ, nếu bạn nhập 3 giá trị thập phân thì tiền tệ sẽ là 200.000
 
-**7) Position-** It helps to position the currency left, right etc. 
+**7) Vị trí-** Dùng để đặt vị trí của ký hiệu tiền tệ bên trái, phải, v.v.
 
 ![Save Currency](../../assets/2.2.0/images/settings/saveCurrency.png)
 
-**Step 3:** Now you will able to see the new **Currency** by the name of **Dirham** as shown below.
+**Bước 3:** Bây giờ bạn sẽ thấy **Tiền tệ** mới với tên **Dirham** như hình dưới đây.
 
 ![New Currency](../../assets/2.2.0/images/settings/newCurrency.png)
 
-### Channel Setting For Currency
+### Cài Đặt Kênh Cho Tiền Tệ
 
-On the admin panel open **Settings >> Channels** you will able to see Currency section and you new currency right there.
+Trên bảng quản trị, mở **Cài đặt >> Kênh** bạn sẽ thấy mục Tiền tệ và loại tiền tệ mới vừa tạo.
 
-Once the channel setting has been done click on **Save Channel** as shown in below image.
+Sau khi hoàn tất cài đặt kênh, nhấn **Lưu Kênh** như hình dưới đây.
 
 ![Currency Channel](../../assets/2.2.0/images/settings/currencyChannel.png)
 
-So by this you can easily create a **Currency** in Bagisto. 
+Như vậy, bạn có thể dễ dàng tạo **Tiền tệ** trong Bagisto.

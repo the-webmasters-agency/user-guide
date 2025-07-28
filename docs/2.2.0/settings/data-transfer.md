@@ -1,45 +1,45 @@
-# Bulk Import
+# Nhập Dữ Liệu Hàng Loạt
 
-Bulk import is a feature that allows users to import large quantities of data into a system quickly and efficiently. It simplifies the process and saves time by not having to add each piece of information one by one. The feature works differently for each system and has a vast variety of use cases across many industries as well as Bagisto.
+Nhập dữ liệu hàng loạt là một tính năng cho phép người dùng nhập một lượng lớn dữ liệu vào hệ thống một cách nhanh chóng và hiệu quả. Tính năng này giúp đơn giản hóa quy trình và tiết kiệm thời gian thay vì phải thêm từng thông tin một cách thủ công. Tính năng này hoạt động khác nhau tùy từng hệ thống và có nhiều trường hợp sử dụng trong nhiều ngành, cũng như trên Bagisto.
 
-### Steps to add Bulk Import in Bagisto2.2.0
+### Các bước thêm Nhập Dữ Liệu Hàng Loạt trong Bagisto 2.2.0
 
-**Step 1:** Go to the Admin panel of Bagisto click on **Settings >> Data Transfer** and click on **Create Import** button.
+**Bước 1:** Truy cập vào bảng quản trị của Bagisto, nhấp vào **Cài đặt >> Chuyển dữ liệu** và nhấn nút **Tạo nhập khẩu**.
 
 ![Import](../../assets/2.2.0/images/settings/import.png)
 
-**Step 2:** Under general configurations select the below fields:
+**Bước 2:** Trong phần cấu hình chung, chọn các trường sau:
 
-**1) Type** – Kindly select the type i.e. (Products, Customers, Tax rates) which you want to import.
+**1) Loại** – Vui lòng chọn loại dữ liệu (Sản phẩm, Khách hàng, Thuế suất) mà bạn muốn nhập.
 
-**2) File** – Choose the file in your desired format (CSV, XLS, XLSX), and kindly make sure you have all the required fields in the file.
+**2) Tệp** – Chọn tệp ở định dạng mong muốn (CSV, XLS, XLSX), và đảm bảo rằng tệp có đầy đủ các trường cần thiết.
 
-**Note** - While Import the product data **Simple, Configurable, Virtual, Bundled & Grouped product types** can be imported except **Downloadable products**.
+**Lưu ý** – Khi nhập dữ liệu sản phẩm, các loại sản phẩm **Đơn giản, Cấu hình, Ảo, Gói & Nhóm** đều có thể nhập, ngoại trừ **Sản phẩm có thể tải xuống**.
 
-**3) Download Sample** – You can also download the sample files of types (Products, Customers, Tax Rates). Kindly make sure the file you are uploading is similar to this sample file.
+**3) Tải mẫu** – Bạn cũng có thể tải các tệp mẫu cho các loại (Sản phẩm, Khách hàng, Thuế suất). Đảm bảo rằng tệp bạn tải lên giống với tệp mẫu này.
 
-**4) Image Directory Path** – Use relative path to /project-root/storage/import/app, e.g. product-images, import-images.
+**4) Đường dẫn thư mục hình ảnh** – Sử dụng đường dẫn tương đối tới /project-root/storage/import/app, ví dụ: product-images, import-images.
 
-**5) Action** – Kindly select from the settings configuration that you want to Create/Update or Delete the records.
+**5) Hành động** – Chọn từ cấu hình cài đặt để Tạo/Cập nhật hoặc Xóa các bản ghi.
 
-**6) Validation Strategy** – This unique feature allows you to **Skip the Errors** or to **Stop on Errors** while Importing the data.
+**6) Chiến lược xác thực** – Tính năng này cho phép bạn **Bỏ qua lỗi** hoặc **Dừng khi gặp lỗi** trong quá trình nhập dữ liệu.
 
-**7) Allowed Errors** – This feature allows you how much quantity of errors will get neglected while importing the data.
+**7) Số lỗi cho phép** – Tính năng này cho phép bạn xác định số lượng lỗi sẽ bị bỏ qua khi nhập dữ liệu.
 
-**8) Field Separator** – This feature allows you to set the fields.
+**8) Ký tự phân tách trường** – Tính năng này cho phép bạn đặt ký tự phân tách các trường.
 
-**9) Process in Queue** – This feature allows you to run your import process in a queue.
+**9) Xử lý trong hàng đợi** – Tính năng này cho phép bạn chạy quá trình nhập dữ liệu trong hàng đợi.
 
-So now click on the **Save Import** Button.
+Sau đó, nhấp vào nút **Lưu nhập khẩu**.
 
 ![Create Import](../../assets/2.2.0/images/settings/createImport.png)
 
-**Step 3:** Now the import process will get started and after it is completed the product import process will be done.
+**Bước 3:** Quá trình nhập sẽ bắt đầu và sau khi hoàn tất, quá trình nhập sản phẩm sẽ hoàn thành.
 
 ![Import Done](../../assets/2.2.0/images/settings/importDone.png)
 
-**Step 4:** Now you will able see to all the products under the **Catalog >> Products** section as shown in the given image.
+**Bước 4:** Bây giờ bạn có thể xem tất cả sản phẩm trong mục **Danh mục >> Sản phẩm** như hình dưới đây.
 
 ![Import Done](../../assets/2.2.0/images/settings/importOutput.png)
 
-By the above steps, you can easily create a **Bulk Import** in Bagisto 2.2.0
+Với các bước trên, bạn có thể dễ dàng tạo **Nhập Dữ Liệu Hàng Loạt** trong Bagisto 2.2.0.

@@ -2,11 +2,11 @@ module.exports = {
     base: '/user-guide/',
     port: '8080',
     cache: false,
-    title: '',
-    description: 'Unlock the full potential of Bagisto with our detailed user guide. This step-by-step documentation is perfect for beginners, covering installation, configuration, and advanced features to help you master your eCommerce platform',
+    title: 'Detech Motor User Guide',
+    description: 'Hướng dẫn sử dụng Detech Motor',
     head: [
         ['link', { rel: "icon", type: "image/png", href: "/favicon.ico" }],
-        ['script', { src: 'https://bagisto.github.io/ai-chatbot/chatbot.js', async: true}]
+        ['script', { src: 'https://bagisto.github.io/ai-chatbot/chatbot.js', async: true }]
     ],
     themeConfig: {
         smoothScroll: true,
@@ -31,7 +31,7 @@ module.exports = {
             '/2.2.0/': require('./version-configs/2.2.0'),
             // '/2.1.0/': require('./version-configs/2.1.0'),   
             // '/2.0/': require('./version-configs/2.0')
-           
+
         }
     },
     markdown: {

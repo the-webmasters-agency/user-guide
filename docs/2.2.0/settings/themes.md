@@ -1,73 +1,73 @@
-# Themes 
+# Chủ đề (Themes)
 
-The theme of the website is the overall look of it and that is why it plays a major role in creating the first impression on the viewer's mind.
+Chủ đề của website là diện mạo tổng thể và đóng vai trò quan trọng trong việc tạo ấn tượng đầu tiên với người xem.
 
-The theme contains different options like slider section with different slider options, Product section, Footer option, right-sidebar, Logo resizer option, Button settings, Blog Settings, Site preloader option, Related option, Icon changer option, full-width-template, color options, widgets, sidebar layouts, header.
+Chủ đề bao gồm nhiều tùy chọn như: phần slider với các kiểu slider khác nhau, phần Sản phẩm, tùy chọn Footer, thanh bên phải, tùy chọn thay đổi kích thước Logo, cài đặt Nút, cài đặt Blog, tùy chọn tải trang trước (preloader), tùy chọn liên quan, thay đổi biểu tượng, mẫu toàn chiều rộng, tùy chọn màu sắc, widget, bố cục thanh bên, tiêu đề.
 
-The theme_customizations table now supports customizations for multiple themes and multiple channels. This enhancement allows you to define different customizations for each theme and channel combination, providing greater flexibility and control over your application's appearance.
+Bảng `theme_customizations` hiện đã hỗ trợ tùy chỉnh cho nhiều chủ đề và nhiều kênh. Nâng cấp này cho phép bạn định nghĩa các tùy chỉnh khác nhau cho từng kết hợp chủ đề và kênh, mang lại sự linh hoạt và kiểm soát tốt hơn cho giao diện ứng dụng của bạn.
 
-Enhanced the theme customization section by adding a feature to filter attributes.
+Đã nâng cấp phần tùy chỉnh chủ đề bằng cách thêm tính năng lọc thuộc tính.
 
-### Create Themes
+### Tạo Chủ đề
 
-**Step 1:** It can be set on the admin panel by going to **Setting >> Themes**. Here you can create new role by clicking on the button **Create Theme** as shown in below image.
+**Bước 1:** Có thể thiết lập trong trang quản trị bằng cách vào **Cài đặt >> Chủ đề**. Tại đây bạn có thể tạo chủ đề mới bằng cách nhấn nút **Tạo Chủ đề** như hình dưới.
 
 ![Theme](../../assets/2.2.0/images/settings/createTheme.png)
 
-**Step 2:** Add the below fields.
+**Bước 2:** Thêm các trường sau.
 
-**1.Name:-** Enter the Theme name
+**1. Tên:** Nhập tên Chủ đề
 
-**2.Sort Order:-** Enter the sort order.
+**2. Thứ tự sắp xếp:** Nhập thứ tự sắp xếp.
 
-**3.Type:-** Select the Type from the dropdown according to your requirement.We have selected a product carousel in this
+**3. Loại:** Chọn loại từ danh sách thả xuống theo nhu cầu. Ở đây chọn carousel sản phẩm.
 
-**4.Channels:-** Select the Channel.
+**4. Kênh:** Chọn Kênh.
 
-**5.Themes:-** Select the Theme.
+**5. Chủ đề:** Chọn Chủ đề.
 
-Now click on **Save Theme** button and you will get redirected to type which you just selected.
+Sau đó nhấn nút **Lưu Chủ đề** và bạn sẽ được chuyển đến loại vừa chọn.
 
 ![Save Theme](../../assets/2.2.0/images/settings/saveTheme.png)
 
-### Product Carousel 
+### Carousel Sản phẩm
 
-**Step 3:** Add the below fields.
+**Bước 3:** Thêm các trường sau.
 
-**1.Title:-** Add the title of the product carousel.
+**1. Tiêu đề:** Thêm tiêu đề cho carousel sản phẩm.
 
-**2.Sort Order:-** Add the sort order.
+**2. Thứ tự sắp xếp:** Thêm thứ tự sắp xếp.
 
-**3.Limit:-** Add the limit of the product carousel.
+**3. Giới hạn:** Thêm giới hạn số lượng sản phẩm trong carousel.
 
 ![Product Carousel](../../assets/2.2.0/images/settings/productCarousel.png)
 
-### General
+### Chung
 
-**1.Name:-** Add the Name.
+**1. Tên:** Thêm Tên.
 
-**2.Sort Order:-** Add the sort order.
+**2. Thứ tự sắp xếp:** Thêm thứ tự sắp xếp.
 
-**3.Channels:-** Select the Channel.
+**3. Kênh:** Chọn Kênh.
 
-**4.Themes** Select the themes.
+**4. Chủ đề:** Chọn chủ đề.
 
-**5.Status** Enable the Status.
+**5. Trạng thái:** Bật Trạng thái.
 
 ![General Theme](../../assets/2.2.0/images/settings/generalTheme.png)
 
-### Filters
+### Bộ lọc
 
-**1.Key:-** Add the Key.
+**1. Khóa:** Thêm Khóa.
 
-**2.Value:-** Add the Value 
+**2. Giá trị:** Thêm Giá trị.
 
 ![Filters](../../assets/2.2.0/images/settings/filters.png)
 
-Now click on **Save** button.
+Sau đó nhấn nút **Lưu**.
 
-**Step 4:** Now you will able to see the new **Field** added in product_carousel by the name of **New Theme** as shown below.
+**Bước 4:** Bây giờ bạn sẽ thấy trường **Mới** được thêm vào product_carousel với tên **Chủ đề mới** như hình dưới.
 
 ![Theme Output](../../assets/2.2.0/images/settings/themeOutput.png)
 
-So by this you can add a Theme Content in  Bagisto.
+Như vậy bạn có thể thêm Nội dung Chủ đề trong Bagisto.

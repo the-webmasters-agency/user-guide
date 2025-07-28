@@ -147,9 +147,9 @@ module.exports = [
       ["settings/channels", "Kênh"],
       ["settings/users", "Người Dùng"],
       ["settings/roles", "Vai Trò"],
-      ["settings/themes", "Giao Diện"],
+      // ["settings/themes", "Giao Diện"],
       ["settings/taxes", "Thuế"],
-      ["settings/data-transfer", "Chuyển Đổi Dữ Liệu"],
+      // ["settings/data-transfer", "Chuyển Đổi Dữ Liệu"],
     ]),
   },
   {

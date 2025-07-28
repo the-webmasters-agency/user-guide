@@ -1,27 +1,27 @@
-# Exchange Rates
+# Tỷ Giá Hối Đoái
 
-An Exchange Rate is the worth of one nation’s currency compares to other nations’ currency.
+Tỷ giá hối đoái là giá trị của một đồng tiền quốc gia so với đồng tiền của các quốc gia khác.
 
-For example how many Euro is required to buy 1 Dollar? Then you require €0.88 to buy a $1. This means the exchange rate of the Euro is 0.88 against Dollar. Here we are going to discuss how to set the exchange rate in bagisto.
+Ví dụ, cần bao nhiêu Euro để mua 1 Đô la? Bạn cần €0.88 để mua $1. Điều này có nghĩa là tỷ giá hối đoái của Euro so với Đô la là 0.88. Ở đây, chúng ta sẽ thảo luận cách thiết lập tỷ giá hối đoái trong Bagisto.
 
-### Set Exchange Rate in Bagisto.
+### Thiết Lập Tỷ Giá Hối Đoái Trong Bagisto
 
-**Step 1:** On the Admin panel of Bagisto go to **Setting >> Exchange Rates >> Create Exchange Rate** as shown in below image.
+**Bước 1:** Trên bảng quản trị của Bagisto, vào **Cài đặt >> Tỷ giá hối đoái >> Tạo tỷ giá hối đoái** như hình dưới.
 
-![Exchange Rate](../../assets/2.2.0/images/settings/exchangeRate.png)
+![Tỷ giá hối đoái](../../assets/2.2.0/images/settings/exchangeRate.png)
 
-**Step 2:** Now Enter **Source Currency, Target Currency, Rate** and click on **Save Exchange Rate** as shown below.
+**Bước 2:** Nhập **Tiền tệ nguồn, Tiền tệ đích, Tỷ giá** và nhấn **Lưu tỷ giá hối đoái** như hình dưới.
 
-![Exchange Rate Configuration](../../assets/2.2.0/images/settings/exchangerateConfigurations.png)
+![Cấu hình tỷ giá hối đoái](../../assets/2.2.0/images/settings/exchangerateConfigurations.png)
 
-**Step 3:** Now you will able to see the new **Exchange Rate** is created as shown below.
+**Bước 3:** Bây giờ bạn sẽ thấy tỷ giá hối đoái mới đã được tạo như hình dưới.
 
-![Exchange Rate Grid](../../assets/2.2.0/images/settings/exchangerateGrid.png)
+![Bảng tỷ giá hối đoái](../../assets/2.2.0/images/settings/exchangerateGrid.png)
 
-### Front End:-
+### Giao Diện Người Dùng:
 
-**Exchange Rate** is applied successfully of **0.919** at the product price of **$499**.So after this exchange rate the new price is **$458.58** as shown below.
+**Tỷ giá hối đoái** đã được áp dụng thành công là **0.919** cho giá sản phẩm **$499**. Sau khi áp dụng tỷ giá này, giá mới là **$458.58** như hình dưới.
 
-![Exchange Rate Configuration](../../assets/2.2.0/images/settings/exchangeOutput.png)
+![Cấu hình tỷ giá hối đoái](../../assets/2.2.0/images/settings/exchangeOutput.png)
 
-So by this you can easily create a **Exchange Rate** in Bagisto. 
+Như vậy, bạn có thể dễ dàng tạo **tỷ giá hối đoái** trong Bagisto.
