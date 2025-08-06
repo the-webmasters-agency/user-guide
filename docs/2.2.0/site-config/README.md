@@ -3,3 +3,4 @@
 - Cấu hình thông tin thành phần trang chủ
 - Quản lí các slide trang chủ
 - Quản lí thông tin các thành tựu
+- Quản lí cache của frontend site

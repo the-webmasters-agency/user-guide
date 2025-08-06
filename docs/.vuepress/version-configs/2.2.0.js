@@ -22,7 +22,8 @@ module.exports = [
     children: setVersionPrefix([
       ["site-config/home-info", "Cấu hình thông tin trang chủ"],
       ["site-config/home-banner", "Cấu hình banner slide trang chủ"],
-      ['site-config/achievement', 'Cấu hình các thành tựu']
+      ['site-config/achievement', 'Cấu hình các thành tựu'],
+      ['site-config/frontend-cache', 'Quản lí cache của frontend'],
     ])
   },
   {
